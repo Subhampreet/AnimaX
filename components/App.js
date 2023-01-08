@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import AnimeCard from "./Anime/AnimeCard";
 
 function App() {
   const [animeList, setAnimeList] = useState([]);
@@ -22,10 +23,7 @@ function App() {
     <div>
       {
         topAnime.map(anime => (
-          <div>
-            {anime.title}
-            <img src={anime.images.jpg.image_url} />
-          </div>
+          <AnimeCard title={anime.title} summary={anime.synopsis} image_url={anime.images.jpg.image_url} rating={anime.rating}/>
         ))
       }
     </div>
