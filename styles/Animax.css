@@ -69,28 +69,63 @@
 }
 
 .sidebar .body{
-    width: 80%;
+    width: 79%;
     margin: auto;
 }
 
 .sidebar .logo{
-    font-size: 35px;
+    font-size: 19px;
     font-weight: 700;
-    color: #0d6351;
-    font-family: 'Cantarell', sans-serif;
+    color: #8a0c0c;
+    font-family: 'Michroma', sans-serif;
 }
 
-.sidebar .logo span{
+/* .sidebar .logo span{
     color: #ebe9fb;
-}
+} */
 
 .sidebar .menu{
     margin-top: 40px;
 }
 
-.sidebar .menu .menu-item{
-    color: #8a868a;
-    font-weight: 500;
-    font-size: 16px;
-    margin-top: 30px;
+.sidebar .menu .menu-head{
+    color: #8990a4;
+    font-weight: 600;
+    font-size: 13.5px;
+    margin-bottom: 30px;
+    letter-spacing: 0.03rem;
+}
+
+.sidebar .menu .menu-item{   
+    color: #899ea4;
+    font-weight: 400;
+    font-size: 13.3px;
+    margin-top: 25px;
+    letter-spacing: 0.03rem;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .menu .menu-item:hover{
+    color: #f9f9f9;
+    cursor:pointer;
+    transition: linear 0.3s;
+}
+
+.sidebar .menu .menu-item:hover .menu-icon{
+    color: #8a0c0c;
+    transition: linear 0.3s;
+}
+
+.sidebar .menu .menu-item .menu-icon{
+    font-size: 19px;
+    margin-right: 13px;
+}
+
+.sidebar .menu .active{
+    color: #ebeaeb;
+}
+
+.sidebar .menu .active .menu-icon{
+    color: #8a0c0c;
 }
