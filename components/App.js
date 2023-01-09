@@ -20,10 +20,10 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="anime-main">
       {
         topAnime.map(anime => (
-          <AnimeCard title={anime.title} summary={anime.synopsis} image_url={anime.images.jpg.image_url} rating={anime.rating}/>
+          <AnimeCard id={anime.mal_id} title={anime.title} summary={anime.synopsis} image_url={anime.images.jpg.image_url} rating={anime.rating}/>
         ))
       }
     </div>
