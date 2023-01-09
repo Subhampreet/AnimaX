@@ -8,7 +8,7 @@ function AnimeCard({id, title, genre, image_url, rating, summary}) {
           <img src={image_url} />
           <div className='title'>{title}</div>
           {/* <p>{summary}</p>          */}
-          <div className="rating">{rating}</div>
+          {/* <div className="rating">{rating}</div> */}
         </div>   
     </div>
   )

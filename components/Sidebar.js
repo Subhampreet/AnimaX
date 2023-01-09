@@ -4,12 +4,12 @@ function Sidebar() {
   return (
     <div className='sidebar'>
         <div className='body'>
-            <div className='logo'>AnimaX</div>
+            <div className='logo'>ANIMA<span>X</span></div>
             <div className='menu'>
-                <div className='menu-item'>TOP ANIME</div>
-                <div className='menu-item'>ROMANCE</div>
-                <div className='menu-item'>ACTION</div>
-                <div className='menu-item'>TEEN</div>
+                <div className='menu-item'>Top Anime</div>
+                <div className='menu-item'>Romance</div>
+                <div className='menu-item'>Action</div>
+                <div className='menu-item'>Teen</div>
             </div>
         </div>        
     </div>
