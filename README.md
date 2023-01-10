@@ -1,8 +1,23 @@
-## AnimaX
+<h1 align="center">AnimaX</h1>
+
+AnimaX is a multi-language website that provides you anime ❤, manga 🦔 and related resources. This is a Next JS application used for browsing, searching and watching animes. The application is built on top of Jikan API. Since it is an open-source project, there won't be any ads in this website 🦊.
+
+<img src="https://github.com/Subhampreet/AnimaX/blob/main/public/banner.PNG">
+
+### Setup Guide
+- Download the zip and extract it in any path you want.
+- Open a command prompt and go to the path in which you extracted the zip.
+- Enter ```bash npm install``` in the command prompt to install the required modules.
+- Make sure your api project is running properly.
+- Make sure your config.js is properly configured. 
+- Enter ```bash npm run dev``` in the command prompt and your website is ready to run.
+
+### API Used:
+ - [Jikan API](https://docs.api.jikan.moe/#section/Information)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+### Getting Started
 
 First, run the development server:
 
@@ -20,7 +35,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+### Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
