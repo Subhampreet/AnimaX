@@ -60,16 +60,17 @@
 }
 
 .App .banner{
-    margin-top: 20px;
-    width: 90%;
+    margin-top: 100px;
+    width: 50%;
 }
 
 .App .banner img{
-    height: 500px;
+    margin-left: 25px;
+    height: 300px;
 }
 
 .anime-main{
-    margin-top: 100px;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     margin-left: 25px;
