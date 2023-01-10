@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import AnimeCard from "./Anime/AnimeCard";
+import { BiSearch } from "react-icons/bi";
 
 function App() {
   const [animeList, setAnimeList] = useState([]);
@@ -24,6 +25,15 @@ function App() {
       {/* <div className="banner">
         <img src="https://staticg.sportskeeda.com/editor/2022/10/d8581-16663316932144-1920.jpg" />
       </div> */}
+      <div className="header">
+        <div className="left">
+          <div className="search-box">
+            <BiSearch className="search-icon" />
+            <input type="search" placeholder="Search anything" />
+          </div>
+        </div>
+        <div className="right"></div>
+      </div>
       <div className="anime-main">
         {topAnime.map((anime) => (
           <AnimeCard
